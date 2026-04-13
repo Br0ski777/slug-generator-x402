@@ -33,6 +33,34 @@ Do NOT use for URL shortening -- use utility_shorten_url instead. Do NOT use for
         },
         required: ["text"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "slug": {
+              "type": "string",
+              "description": "Generated URL slug"
+            },
+            "original": {
+              "type": "string",
+              "description": "Original text"
+            },
+            "separator": {
+              "type": "string",
+              "description": "Separator used"
+            },
+            "lowercase": {
+              "type": "boolean"
+            },
+            "length": {
+              "type": "number",
+              "description": "Slug length"
+            }
+          },
+          "required": [
+            "slug",
+            "original"
+          ]
+        },
     },
   ],
 };
