@@ -3,7 +3,7 @@
   "name": "io.github.Br0ski777/slug-generator",
   "title": "Slug Generator API",
   "description": "URL-friendly slugs from text \u00e2\u20ac\u201d transliteration, custom separators. x402 micropayment.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://github.com/Br0ski777/slug-generator-x402",
   "repository": {
     "url": "https://github.com/Br0ski777/slug-generator-x402",
