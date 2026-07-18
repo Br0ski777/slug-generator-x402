@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_generate_slug` | POST | `/api/slugify` | $0.001 | Generate a URL-friendly slug from text |
+| `text_generate_slug` | POST | `/api/slugify` | $0.003 | Generate a URL-friendly slug from text |
 
 ### `text_generate_slug`
 
